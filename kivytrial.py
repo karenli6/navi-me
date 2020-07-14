@@ -197,22 +197,4 @@ TestCamera().run()
 
 
 
-# export GOOGLE_APPLICATION_CREDENTIALS="/Users/karenli/Desktop/codeday/objectrecog-d4f7bbda097e.json"
-
-# def create_service_account(project_id, name, display_name):
-#     """Creates a service account."""
-
-#     # pylint: disable=no-member
-#     service_account = service.projects().serviceAccounts().create(
-#         name='projects/' + project_id,
-#         body={
-#             'accountId': name,
-#             'serviceAccount': {
-#                 'displayName': display_name
-#             }
-#         }).execute()
-
-#     print('Created service account: ' + service_account['email'])
-#     return service_account
-
-# create_service_account("objectrecog-241720", "objectrecog", "vivek" )
+# NOTE: GOOGLE_APPLICATION_CREDENTIALS needed from user's Google account
